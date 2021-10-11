@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  height: 100vh;
+  width: 9.5%;
+  margin-top: 15px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 10px 10px 15px #d1d0d0;
+}
+
+.line {
+  height: 3px;
+  background-color: rgb(226, 224, 224);
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.student {
+  margin-bottom: 25px;
+}
+.lessonplan {
+  margin-bottom: 25px;
+  padding: 5px;
+  background-color: rgb(167, 220, 241);
+  border-left: 4px solid rgb(70, 70, 247);
+  width: 93%;
+  margin-left: 8px;
+  font-weight: bolder;
+}
+
+#studenticon {
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+#setting {
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+#lessonplan {
+  margin-left: 33px;
+  margin-bottom: 4px;
+}
+
+.maincontainer {
+  height: 82vh;
+  width: 89.5%;
+  position: absolute;
+  top: 125px;
+  left: 125px;
+  background-color: rgb(244, 245, 247);
+  z-index: -1;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.text p {
+  color: rgb(151, 138, 138);
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#input {
+  height: 40px;
+  width: 70%;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  position: relative;
+  top: 93px;
+  left: 174px;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 15px;
+}
+#or {
+  font-weight: 900;
+  font-size: 15px;
+  position: relative;
+  top: 124px;
+  width: 3%;
+  margin: auto;
+}
+
+#upload {
+  font-weight: 900;
+  font-size: 14px;
+  position: relative;
+  left: 174px;
+  top: 121px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 160px;
+  width: 160px;
+}
